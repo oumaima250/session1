@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a>
+                <li><a href="#works">works</a>
+                <li><a href="#contact">contact</a>
+              
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about"class="masection">ma premiere section</section>
+        <section id="works" class="masection"></section>ma deuxieme section</section>
+        <section id="contact" class="masection"> ma section contact</section>
+    </main>
+ 
+    <button onclick="Mafonction()">mon premier button</button>
+
+<button id="secondButton">mon deuxieme button</button>
+
+<script>
+    function Mafonction() {
+        alert("hello world");
+    }
+
+    let secondButton = document.getElementById("secondButton");
+    secondButton.addEventListener("click",Mafonction )
+</script>
+</body>
+</html> 
